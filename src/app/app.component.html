@@ -1,0 +1,14 @@
+<app-encabezado> </app-encabezado>
+
+<div class="imagen-container">
+  <div class="imagen">
+    <ng-container *ngIf="esPaginaInicio()">
+      <img src="../assets/img/unas.jpg" alt="">
+    </ng-container>
+  </div>
+
+<div class="container">
+  <router-outlet> </router-outlet>
+</div>
+
+<app-pie-pagina> </app-pie-pagina>

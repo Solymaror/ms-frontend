@@ -1,0 +1,14 @@
+.imagen-container {
+  text-align: center; /* Centra horizontalmente el contenido */
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.imagen {
+  display: inline-block; /* Permite que el contenedor de la imagen ocupe solo el espacio necesario */
+  width: 40%; /* Ajusta el ancho del contenedor de la imagen según sea necesario */
+}
+
+.imagen img {
+  width: 40%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+  height: auto; /* Permite que la altura de la imagen se ajuste automáticamente */
+}
